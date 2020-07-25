@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: #4be702;
+}
+
+.App {
+  min-height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+  background: url(./imgs/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}

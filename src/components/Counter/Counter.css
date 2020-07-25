@@ -1,0 +1,21 @@
+.counter {
+  width: 80%;
+  margin: 1rem auto 0.5rem;
+  padding: 0.3rem;
+  background: linear-gradient(to left, #108014c7, #05db0cc2);
+  border-radius: 4px;
+  transform: scale(0);
+  animation-name: animateCounter;
+  animation-duration: 300ms;
+  animation-fill-mode: forwards;
+  box-shadow: 4px 6px 10px #000;
+}
+
+@keyframes animateCounter {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
